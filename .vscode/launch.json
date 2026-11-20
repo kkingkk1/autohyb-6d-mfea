@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "RunSingleParentConfig",
+            "request": "launch",
+            "mainClass": "main.RunSingleParentConfig",
+            "projectName": "6d-pure-semantic-dynamic-version"
+        },
+        {
+            "type": "java",
+            "name": "RunSingleHybridConfig",
+            "request": "launch",
+            "mainClass": "main.RunSingleHybridConfig",
+            "vmArgs": "-Dtuning.config.path=tuning.properties"
+        }
+    ]
+}

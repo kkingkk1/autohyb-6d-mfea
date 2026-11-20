@@ -1,0 +1,39 @@
+# Maven and Java build output
+/target/
+/out/
+/build/
+*.class
+*.jar
+*.war
+*.ear
+
+# Experiment data and output
+/Scene/
+/outputs/
+/result/
+*.log
+hs_err_pid*
+replay_pid*
+
+# Local tooling and cache
+__pycache__/
+*.py[cod]
+.idea/
+*.iml
+.agents/
+.claude/
+.codex/
+.serena/
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+
+# Temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
+*.swp
